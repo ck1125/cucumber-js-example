@@ -1,10 +1,11 @@
-## Cucumber.js examples
+## Cucumber.js example
 
-### Ruby on Rails
+### CLI only
 
-    $ cd rails_app
-    $ bundle
-    $ rake db:setup
-    $ rails s
+    $ npm install -g cucumber zombie
+	$ set NODE_PATH to /usr/local/lib/node_modules or something of your choosing
+    $ npm link
+    $ cucumber.js
 
-Then go to [http://localhost:3000/cukes](http://localhost:3000/cukes).
+### Issues
+Ran into problems with 0.10.2 of Zombie. For whatever reason npm isn't finding it. Updated to
